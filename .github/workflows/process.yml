@@ -1,0 +1,14 @@
+name: Bonfyre Pipeline
+on:
+  push:
+    paths:
+      - 'input/**'
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Bonfyre pipeline
+        run: |
+          set -e
+          ./scripts/run-pipeline.sh

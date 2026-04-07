@@ -1,0 +1,8 @@
+# Example Bonfyre pipeline: brief -> render -> emit
+steps:
+  - brief:
+      cmd: bonfyre-brief --in input --out artifacts/brief.json
+  - render:
+      cmd: bonfyre-render --in artifacts/brief.json --out site
+  - emit:
+      cmd: bonfyre-emit --in site --out site
