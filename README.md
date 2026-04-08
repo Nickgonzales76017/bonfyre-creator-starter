@@ -15,3 +15,7 @@ Files
 - `process.yml` — example Bonfyre pipeline (brief → render → emit)
 
 License: MIT
+
+---
+
+Powered by [Bonfyre](https://github.com/Nickgonzales76017/bonfyre) — 48 composable C11 binaries, including [HCP v3.2](https://github.com/Nickgonzales76017/hcp-whisper) (0.997 quality, 9-layer hallucination detection, $0/min). Use `bonfyre-proxy serve` for OpenAI-compatible API access.
