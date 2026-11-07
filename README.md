@@ -6,6 +6,19 @@
 
 This repository is a **scaffold, not a functioning automatic transcription or publishing service**. Its `site/index.html` is a static front end; `process.yml` sketches three stages; and the GitHub Action runs `scripts/run-pipeline.sh`. That script currently writes a placeholder file rather than invoking the native Bonfÿre tools or deploying a site.
 
+## Aurekai / Bonfÿre: role and maturity
+
+**Why this exists:** AI can generate software faster than teams can coordinate it. [Aurekai](https://aurekai.work) invests engineering and reusable software into connected public and commercial experiences; [Bonfÿre](https://github.com/Nickgonzales76017/bonfyre) supplies the native capabilities, source context, authorized work and verification that make projects compound.
+
+| | This repository |
+|---|---|
+| **Business outcome** | Creator-to-publication workflows with accountable review |
+| **Technical scope** | Early static site, YAML process outline and placeholder script |
+| **Maturity boundary** | Scaffold only: no actual transcription, managed publishing or proven release |
+| **Verification** | Inspect the source, build instructions, fixtures and limitations below; this repository is not proof of a live Aurekai release. |
+
+[Business, project and technical model](https://github.com/Nickgonzales76017/bonfyre/blob/main/docs/aurekai-bonfyre-model.md) · [Canonical implementation](https://github.com/Nickgonzales76017/bonfyre)
+
 ## What you can inspect
 
 | File | Purpose |
